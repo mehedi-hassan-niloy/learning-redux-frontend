@@ -13,7 +13,8 @@ const Products = () => {
 
     return (
         <div>
-            <h2>All Products are here: {products.length}</h2>
+            <h2 className="px-4 md:px-8 lg:px-12 pt-8 font-serif font-bold">All Products {products.length}</h2>
+
             {
                 isLoading && <h3>Loading...</h3>
             }
